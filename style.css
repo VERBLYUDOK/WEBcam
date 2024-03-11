@@ -27,6 +27,15 @@ div {
     box-shadow: 0px 1px 5px #999;
     background-color: #8a9bab;
 }
+.exam_03:before {
+    content: "\f129"; /* код иконки info */
+    margin-left: 4px;
+    font-family:FontAwesome;
+    font-size: 21px;
+    left: 14px; /* позиция иконки */
+    position: absolute;
+}
+
 p{
     color:blueviolet;
 }
