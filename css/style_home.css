@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://w.forfun.com/fetch/9b/9b5c3c312b15e624b2e35220bb37424d.jpeg');
+    background-image: url('../images/9b5c3c312b15e624b2e35220bb37424d_2.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ body {
 }
 
 .themes {
-    background-color: antiquewhite;
+    background-color: rgb(244, 212, 171);
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -24,7 +24,9 @@ body {
     src: url("FRM325x8.ttf");
 }
 
-
+.white_text {
+    color: white;
+}
 
 .site-header {
     margin-top: 0;
@@ -34,9 +36,10 @@ body {
     height: 70px;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: center; /* центр по вертикали */
+    justify-content: center; /* центр по горизонтали */
     background-color: rgba(25, 179, 179, 0.25); /* Используем rgba для прозрачности */
-    background: linear-gradient(to right, rgba(1, 52, 55, 0.7),rgba(108, 226, 240, 0.7)); /* Линейный градиент от красного к синему */
+    background: linear-gradient(to right, rgba(1, 52, 55, 0.7),rgba(87, 198, 210, 0.7)); /* Линейный градиент от красного к синему */
 }
 
 .articles {
