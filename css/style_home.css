@@ -17,7 +17,7 @@ body {
     right: 0px;
     left: 50%;
     top: 30%;
-    
+    box-shadow:0 5px 25px rgba(0, 0, 0, 0.6);
 }
 @font-face {
     font-family: "shrift";
@@ -42,6 +42,23 @@ body {
     background: linear-gradient(to right, rgba(1, 52, 55, 0.7),rgba(87, 198, 210, 0.7)); /* Линейный градиент от красного к синему */
 }
 
-.articles {
+.article {
+    padding-left: 10px;
+    width: 450px;
+    height: 120px;
     font-size: 100px;
+    font-family: "shrift";
+    color: white;
+    transition: 1.5s ease-in-out;
+}
+.article:hover {
+    background-color: rgba(83, 218, 234, 1);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.7);
+    transform:scale(1.1);
+    transition-delay: 0.1s;
+}
+
+.link_bez_sinevy {
+    text-decoration: none;
+    color: black;
 }
